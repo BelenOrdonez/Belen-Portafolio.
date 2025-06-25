@@ -4,6 +4,9 @@ st.set_page_config(page_title="Portafolio de Belén Ordónez")
 
 st.title("Belén Ordónez Tumi")
 
+imagen = Image.open("foto.jpg") 
+st.image(imagen, caption="Belén Ordónez Tumi", width=300)
+
 st.markdown("""
 <p class="presentacion">
 Hola! Mi nombre es <strong>Belén Ordónez Tumi</strong> y tengo 19 años. <br>
