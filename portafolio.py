@@ -2,19 +2,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Portafolio de Belén Ordónez")
 
-st.markdown(
-    """
-    <style>
-    .main {
-        background-color: #EDE8D0;
-        padding: 2rem;
-        border-radius: 10px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 st.title("Belén Ordónez Tumi")
 
 st.markdown("""
